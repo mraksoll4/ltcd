@@ -229,13 +229,9 @@ type Params struct {
 var MainNetParams = Params{
 	Name:        "mainnet",
 	Net:         wire.MainNet,
-	DefaultPort: "9333",
+	DefaultPort: "39328",
 	DNSSeeds: []DNSSeed{
-		{"seed-a.litecoin.loshan.co.uk", true},
-		{"dnsseed.thrasher.io", true},
-		{"dnsseed.litecointools.com", false},
-		{"dnsseed.litecoinpool.org", false},
-		{"dnsseed.koin-project.com", false},
+		{"168.235.91.184", false},
 	},
 
 	// Chain parameters
@@ -304,11 +300,11 @@ var MainNetParams = Params{
 
 	// Human-readable part for Bech32 encoded segwit addresses, as defined in
 	// BIP 173.
-	Bech32HRPSegwit: "ltc", // always ltc for main net
+	Bech32HRPSegwit: "ltfn", // always ltc for main net
 
 	// Address encoding magics
-	PubKeyHashAddrID:        0x30, // starts with L
-	ScriptHashAddrID:        0x32, // starts with M
+	PubKeyHashAddrID:        0x1C, // starts with L
+	ScriptHashAddrID:        0x35, // starts with M
 	PrivateKeyID:            0xB0, // starts with 6 (uncompressed) or T (compressed)
 	WitnessPubKeyHashAddrID: 0x06, // starts with p2
 	WitnessScriptHashAddrID: 0x0A, // starts with 7Xh
