@@ -14,9 +14,9 @@ import (
 
 	"golang.org/x/crypto/ripemd160"
 
-	"github.com/ltcsuite/ltcd/btcec"
-	"github.com/ltcsuite/ltcd/chaincfg/chainhash"
-	"github.com/ltcsuite/ltcd/wire"
+	"github.com/mraksoll4/ltcd/btcec"
+	"github.com/mraksoll4/ltcd/chaincfg/chainhash"
+	"github.com/mraksoll4/ltcd/wire"
 )
 
 // An opcode defines the information related to a txscript opcode.  opfunc, if
@@ -2099,7 +2099,7 @@ func opcodeCheckSig(op *parsedOpcode, vm *Engine) error {
 		}
 
 		hash, err = calcWitnessSignatureHash(subScript, sigHashes, hashType,
-			&vm.tx, vm.txIdx, vm.inputAmount)
+			&vm.tx, vm.txIdx, vm.inputAmount, activeForkID)
 		if err != nil {
 			return err
 		}
@@ -2372,7 +2372,7 @@ func opcodeCheckMultiSig(op *parsedOpcode, vm *Engine) error {
 			}
 
 			hash, err = calcWitnessSignatureHash(script, sigHashes, hashType,
-				&vm.tx, vm.txIdx, vm.inputAmount)
+				&vm.tx, vm.txIdx, vm.inputAmount, activeForkID)
 			if err != nil {
 				return err
 			}

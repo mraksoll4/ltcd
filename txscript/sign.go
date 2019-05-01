@@ -8,9 +8,9 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/ltcsuite/ltcd/btcec"
-	"github.com/ltcsuite/ltcd/chaincfg"
-	"github.com/ltcsuite/ltcd/wire"
+	"github.com/mraksoll4/ltcd/btcec"
+	"github.com/mraksoll4/ltcd/chaincfg"
+	"github.com/mraksoll4/ltcd/wire"
 	"github.com/ltcsuite/ltcutil"
 )
 
@@ -28,7 +28,7 @@ func RawTxInWitnessSignature(tx *wire.MsgTx, sigHashes *TxSigHashes, idx int,
 	}
 
 	hash, err := calcWitnessSignatureHash(parsedScript, sigHashes, hashType, tx,
-		idx, amt)
+		idx, amt, activeForkID)
 	if err != nil {
 		return nil, err
 	}
