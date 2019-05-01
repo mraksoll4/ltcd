@@ -69,7 +69,7 @@ details on how to install on the supported operating systems.
 
 **2.1.1 Windows Installation**<br />
 
-* Install the MSI available at: https://github.com/ltcsuite/ltcd/releases
+* Install the MSI available at: https://github.com/mraksoll4/ltcd/releases
 * Launch ltcd from the Start Menu
 
 <a name="PosixInstallation" />
@@ -96,8 +96,8 @@ recommended that `GOPATH` is set to a directory in your home directory such as
 
 ```bash
 $ go get -u github.com/Masterminds/glide
-$ git clone https://github.com/ltcsuite/ltcd $GOPATH/src/github.com/ltcsuite/ltcd
-$ cd $GOPATH/src/github.com/ltcsuite/ltcd
+$ git clone https://github.com/mraksoll4/ltcd $GOPATH/src/github.com/mraksoll4/ltcd
+$ cd $GOPATH/src/github.com/mraksoll4/ltcd
 $ glide install
 $ go install . ./cmd/...
 ```
@@ -111,7 +111,7 @@ $ go install . ./cmd/...
 - Run the following commands to update ltcd, all dependencies, and install it:
 
 ```bash
-$ cd $GOPATH/src/github.com/ltcsuite/ltcd
+$ cd $GOPATH/src/github.com/mraksoll4/ltcd
 $ git pull && glide install
 $ go install . ./cmd/...
 ```
@@ -129,7 +129,7 @@ $ go install . ./cmd/...
 
 **2.2 Configuration**
 
-ltcd has a number of [configuration](http://godoc.org/github.com/ltcsuite/ltcd)
+ltcd has a number of [configuration](http://godoc.org/github.com/mraksoll4/ltcd)
 options, which can be viewed by running: `$ ltcd --help`.
 
 <a name="BtcctlConfig" />
@@ -213,16 +213,16 @@ configuration necessary, however, there is an optional method to use a
 
 **3.1.1 bootstrap.dat**
 
-* [Using bootstrap.dat](https://github.com/ltcsuite/ltcd/tree/master/docs/using_bootstrap_dat.md)
+* [Using bootstrap.dat](https://github.com/mraksoll4/ltcd/tree/master/docs/using_bootstrap_dat.md)
 
 <a name="NetworkConfig" />
 
 **3.1.2 Network Configuration**
 
-* [What Ports Are Used by Default?](https://github.com/ltcsuite/ltcd/tree/master/docs/default_ports.md)
-* [How To Listen on Specific Interfaces](https://github.com/ltcsuite/ltcd/tree/master/docs/configure_peer_server_listen_interfaces.md)
-* [How To Configure RPC Server to Listen on Specific Interfaces](https://github.com/ltcsuite/ltcd/tree/master/docs/configure_rpc_server_listen_interfaces.md)
-* [Configuring ltcd with Tor](https://github.com/ltcsuite/ltcd/tree/master/docs/configuring_tor.md)
+* [What Ports Are Used by Default?](https://github.com/mraksoll4/ltcd/tree/master/docs/default_ports.md)
+* [How To Listen on Specific Interfaces](https://github.com/mraksoll4/ltcd/tree/master/docs/configure_peer_server_listen_interfaces.md)
+* [How To Configure RPC Server to Listen on Specific Interfaces](https://github.com/mraksoll4/ltcd/tree/master/docs/configure_rpc_server_listen_interfaces.md)
+* [Configuring ltcd with Tor](https://github.com/mraksoll4/ltcd/tree/master/docs/configuring_tor.md)
 
 <a name="Wallet" />
 
@@ -258,42 +258,42 @@ information.
 
 <a name="ContributionGuidelines" />
 
-* [Code Contribution Guidelines](https://github.com/ltcsuite/ltcd/tree/master/docs/code_contribution_guidelines.md)
+* [Code Contribution Guidelines](https://github.com/mraksoll4/ltcd/tree/master/docs/code_contribution_guidelines.md)
 
 <a name="JSONRPCReference" />
 
-* [JSON-RPC Reference](https://github.com/ltcsuite/ltcd/tree/master/docs/json_rpc_api.md)
-    * [RPC Examples](https://github.com/ltcsuite/ltcd/tree/master/docs/json_rpc_api.md#ExampleCode)
+* [JSON-RPC Reference](https://github.com/mraksoll4/ltcd/tree/master/docs/json_rpc_api.md)
+    * [RPC Examples](https://github.com/mraksoll4/ltcd/tree/master/docs/json_rpc_api.md#ExampleCode)
 
 <a name="GoPackages" />
 
 * The ltcsuite Litecoin-related Go Packages:
-    * [btcrpcclient](https://github.com/ltcsuite/ltcd/tree/master/rpcclient) - Implements a
+    * [btcrpcclient](https://github.com/mraksoll4/ltcd/tree/master/rpcclient) - Implements a
       robust and easy to use Websocket-enabled Bitcoin JSON-RPC client
-    * [btcjson](https://github.com/ltcsuite/ltcd/tree/master/btcjson) - Provides an extensive API
+    * [btcjson](https://github.com/mraksoll4/ltcd/tree/master/btcjson) - Provides an extensive API
       for the underlying JSON-RPC command and return values
-    * [wire](https://github.com/ltcsuite/ltcd/tree/master/wire) - Implements the
+    * [wire](https://github.com/mraksoll4/ltcd/tree/master/wire) - Implements the
       Bitcoin wire protocol
-    * [peer](https://github.com/ltcsuite/ltcd/tree/master/peer) -
+    * [peer](https://github.com/mraksoll4/ltcd/tree/master/peer) -
       Provides a common base for creating and managing Bitcoin network peers.
-    * [blockchain](https://github.com/ltcsuite/ltcd/tree/master/blockchain) -
+    * [blockchain](https://github.com/mraksoll4/ltcd/tree/master/blockchain) -
       Implements Bitcoin block handling and chain selection rules
-    * [blockchain/fullblocktests](https://github.com/ltcsuite/ltcd/tree/master/blockchain/fullblocktests) -
+    * [blockchain/fullblocktests](https://github.com/mraksoll4/ltcd/tree/master/blockchain/fullblocktests) -
       Provides a set of block tests for testing the consensus validation rules
-    * [txscript](https://github.com/ltcsuite/ltcd/tree/master/txscript) -
+    * [txscript](https://github.com/mraksoll4/ltcd/tree/master/txscript) -
       Implements the Bitcoin transaction scripting language
-    * [btcec](https://github.com/ltcsuite/ltcd/tree/master/btcec) - Implements
+    * [btcec](https://github.com/mraksoll4/ltcd/tree/master/btcec) - Implements
       support for the elliptic curve cryptographic functions needed for the
       Bitcoin scripts
-    * [database](https://github.com/ltcsuite/ltcd/tree/master/database) -
+    * [database](https://github.com/mraksoll4/ltcd/tree/master/database) -
       Provides a database interface for the Bitcoin block chain
-    * [mempool](https://github.com/ltcsuite/ltcd/tree/master/mempool) -
+    * [mempool](https://github.com/mraksoll4/ltcd/tree/master/mempool) -
       Package mempool provides a policy-enforced pool of unmined bitcoin
       transactions.
-    * [btcutil](https://github.com/ltcsuite/ltcutil) - Provides Bitcoin-specific
+    * [btcutil](https://github.com/mraksoll4/ltcutil) - Provides Bitcoin-specific
       convenience functions and types
-    * [chainhash](https://github.com/ltcsuite/ltcd/tree/master/chaincfg/chainhash) -
+    * [chainhash](https://github.com/mraksoll4/ltcd/tree/master/chaincfg/chainhash) -
       Provides a generic hash type and associated functions that allows the
       specific hash algorithm to be abstracted.
-    * [connmgr](https://github.com/ltcsuite/ltcd/tree/master/connmgr) -
+    * [connmgr](https://github.com/mraksoll4/ltcd/tree/master/connmgr) -
       Package connmgr implements a generic Bitcoin network connection manager.

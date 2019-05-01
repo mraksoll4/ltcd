@@ -11,12 +11,12 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ltcsuite/ltcd/blockchain"
-	"github.com/ltcsuite/ltcd/blockchain/indexers"
-	"github.com/ltcsuite/ltcd/chaincfg/chainhash"
-	"github.com/ltcsuite/ltcd/database"
-	"github.com/ltcsuite/ltcd/wire"
-	"github.com/ltcsuite/ltcutil"
+	"github.com/mraksoll4/ltcd/blockchain"
+	"github.com/mraksoll4/ltcd/blockchain/indexers"
+	"github.com/mraksoll4/ltcd/chaincfg/chainhash"
+	"github.com/mraksoll4/ltcd/database"
+	"github.com/mraksoll4/ltcd/wire"
+	"github.com/mraksoll4/ltcutil"
 )
 
 var zeroHash = chainhash.Hash{}

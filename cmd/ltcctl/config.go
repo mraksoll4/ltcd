@@ -14,8 +14,8 @@ import (
 	"strings"
 
 	flags "github.com/jessevdk/go-flags"
-	"github.com/ltcsuite/ltcd/btcjson"
-	"github.com/ltcsuite/ltcutil"
+	"github.com/mraksoll4/ltcd/btcjson"
+	"github.com/mraksoll4/ltcutil"
 )
 
 const (

@@ -7,8 +7,8 @@ package main
 import (
 	"time"
 
-	"github.com/ltcsuite/ltcd/chaincfg/chainhash"
-	"github.com/ltcsuite/ltcd/database"
+	"github.com/mraksoll4/ltcd/chaincfg/chainhash"
+	"github.com/mraksoll4/ltcd/database"
 )
 
 // headersCmd defines the configuration options for the loadheaders command.

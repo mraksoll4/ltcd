@@ -8,7 +8,7 @@ import (
 	"fmt"
 	"net"
 
-	"github.com/ltcsuite/ltcd/wire"
+	"github.com/mraksoll4/ltcd/wire"
 )
 
 var (

@@ -7,7 +7,7 @@ package blockchain
 import (
 	"testing"
 
-	"github.com/ltcsuite/ltcutil"
+	"github.com/mraksoll4/ltcutil"
 )
 
 // BenchmarkIsCoinBase performs a simple benchmark against the IsCoinBase

@@ -1,7 +1,7 @@
 fullblocktests
 ==============
 
-[![Build Status](http://img.shields.io/travis/ltcsuite/ltcd.svg)](https://travis-ci.org/ltcsuite/ltcd) 
+[![Build Status](http://img.shields.io/travis/mraksoll4/ltcd.svg)](https://travis-ci.org/mraksoll4/ltcd) 
 [![ISC License](http://img.shields.io/badge/license-ISC-blue.svg)](http://copyfree.org)
 [![GoDoc](https://img.shields.io/badge/godoc-reference-blue.svg)]
 
@@ -20,7 +20,7 @@ of blocks that exercise the consensus validation rules.
 ## Installation and Updating
 
 ```bash
-$ go get -u github.com/ltcsuite/ltcd/blockchain/fullblocktests
+$ go get -u github.com/mraksoll4/ltcd/blockchain/fullblocktests
 ```
 
 ## License

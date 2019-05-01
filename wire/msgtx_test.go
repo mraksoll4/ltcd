@@ -11,7 +11,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/ltcsuite/ltcd/chaincfg/chainhash"
+	"github.com/mraksoll4/ltcd/chaincfg/chainhash"
 	"github.com/davecgh/go-spew/spew"
 )
 

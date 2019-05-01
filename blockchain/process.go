@@ -8,9 +8,9 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/ltcsuite/ltcd/chaincfg/chainhash"
-	"github.com/ltcsuite/ltcd/database"
-	"github.com/ltcsuite/ltcutil"
+	"github.com/mraksoll4/ltcd/chaincfg/chainhash"
+	"github.com/mraksoll4/ltcd/database"
+	"github.com/mraksoll4/ltcutil"
 )
 
 // BehaviorFlags is a bitmask defining tweaks to the normal behavior when

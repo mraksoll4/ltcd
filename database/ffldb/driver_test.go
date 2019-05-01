@@ -12,10 +12,10 @@ import (
 	"runtime"
 	"testing"
 
-	"github.com/ltcsuite/ltcd/chaincfg"
-	"github.com/ltcsuite/ltcd/database"
-	"github.com/ltcsuite/ltcd/database/ffldb"
-	"github.com/ltcsuite/ltcutil"
+	"github.com/mraksoll4/ltcd/chaincfg"
+	"github.com/mraksoll4/ltcd/database"
+	"github.com/mraksoll4/ltcd/database/ffldb"
+	"github.com/mraksoll4/ltcutil"
 )
 
 // dbType is the database type name for this driver.

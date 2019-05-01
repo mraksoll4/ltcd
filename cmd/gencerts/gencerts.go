@@ -12,7 +12,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/ltcsuite/ltcutil"
+	"github.com/mraksoll4/ltcutil"
 	flags "github.com/jessevdk/go-flags"
 )
 
